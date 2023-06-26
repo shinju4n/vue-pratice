@@ -1,10 +1,15 @@
 <template>
-  <ul class="nav">
+  <ul class="nav nav-pills">
     <li class="nav-item">
-      <RouterLink class="nav-link" to="/nested/one" active-class="active">Nested 1</RouterLink>
+      <RouterLink 
+      class="nav-link"  
+      active-class="active" 
+      :to="{name: 'NestedOne', replace: true}"
+      >
+      Nested 1</RouterLink>
     </li>
     <li class="nav-item">
-      <RouterLink class="nav-link" to="/nested/two" active-class="active">Nested 2</RouterLink>
+      <RouterLink class="nav-link" :to="{name: 'NestedTwo', replace: true}" active-class="active">Nested 2</RouterLink>
     </li>
   </ul>
   <hr class="my-4"/>

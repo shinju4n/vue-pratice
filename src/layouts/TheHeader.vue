@@ -31,6 +31,11 @@
                 >포스트</RouterLink
               >
             </li>
+            <li class="nav-item">
+              <RouterLink class="nav-link" active-class="active" to="/nested"
+                >중첩 라우터</RouterLink
+              >
+            </li>
           </ul>
           <div class="d-flex">
             <button class="btn btn-outline-light" type="button" @click="goPage">
