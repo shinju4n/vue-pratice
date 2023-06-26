@@ -28,6 +28,7 @@ module.exports = {
         bracketSpacing: true,
         arrowParens: 'avoid',
         endOfLine: 'auto', // 한줄 추가
+        trailingComma: 'always-multiline',
       },
     ],
   },
