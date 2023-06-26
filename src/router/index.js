@@ -33,7 +33,7 @@ const routes = [
     component: PostDetailView,
   },
   {
-    path: '/posts/edit',
+    path: '/posts/edit/:id',
     name: 'PostEdit',
     component: PostEditView,
   },
