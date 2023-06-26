@@ -12,7 +12,6 @@
 </template>
 
 <script setup>
-  console.log('hi')
 </script>
 
 <style lang="scss" scoped>

@@ -7,6 +7,7 @@ import PostDetailView from '@/views/posts/PostDetailView.vue';
 import PostEditView from '@/views/posts/PostEditView.vue';
 import NotFound from '@/views/NotFound.vue'
 import NestedView from '@/views/nested/NestedView.vue'
+import NestedHome from '@/views/nested/NestedHomeView.vue'
 import NestedOne from '@/views/nested/NestedOneView.vue'
 import NestedTwo from '@/views/nested/NestedTwoView.vue'
 
@@ -51,6 +52,11 @@ const routes = [
     name: 'Nested',
     component: NestedView,
     children: [
+      {
+        path: '',
+        name: 'NestedHome',
+        component: NestedHome,
+      },
       {
         path: 'one',
         name: 'NestedOne',
