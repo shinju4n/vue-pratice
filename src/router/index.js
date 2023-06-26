@@ -6,10 +6,12 @@ import AboutView from '@/views/AboutView.vue';
 const routes = [
   {
     path: '/',
+    name: 'Home',
     component: HomeView,
   },
   {
     path: '/about',
+    name: 'About',
     component: AboutView,
   },
 ];
